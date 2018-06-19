@@ -9,9 +9,9 @@ defined('CORE_PATH') or define('CORE_PATH', __DIR__ . DS);  //**核心类文件 
 
 require CORE_PATH . 'Loader.php';
 
+Loader::register();
 
 
-
-
+Error::register();
 
 
