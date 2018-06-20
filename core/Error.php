@@ -28,6 +28,7 @@ class Error
      * @return void
      * @throws ErrorException
      */
+    /*
     public static function appError($errno, $errstr, $errfile = '', $errline = 0)
     {
         $exception = new ErrorException($errno, $errstr, $errfile, $errline);
@@ -39,7 +40,7 @@ class Error
 
         self::getExceptionHandler()->report($exception);
     }
-
+*/
 
 }
 

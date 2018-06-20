@@ -2,6 +2,7 @@
 
 //use app\Logic\Test as TestLogic;
 use core\Loader;
+use core\Log;
 
 //命名空间
 //自动加载
@@ -18,6 +19,11 @@ $cc = Loader::getInstance('app\Logic\Test');
 var_dump($cc);
 $dd = Loader::getInstance('app\Logic\Test');
 var_dump($dd);
+
+Log::info('6666666','eee');
+
+
+
 
 exit;
 echo "<pre>";
