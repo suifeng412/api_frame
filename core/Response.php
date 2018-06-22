@@ -4,7 +4,7 @@ namespace core;
 
 class Response
 {
-    
+
     private static $content = null;
 
     /**
