@@ -28,19 +28,79 @@ class Error
      * @return void
      * @throws ErrorException
      */
-    /*
     public static function appError($errno, $errstr, $errfile = '', $errline = 0)
     {
-        $exception = new ErrorException($errno, $errstr, $errfile, $errline);
-
-        // 符合异常处理的则将错误信息托管至 think\exception\ErrorException
-        if (error_reporting() & $errno) {
-            throw $exception;
+        if ($errno === E_NOTICE) {
+            return;
         }
-
-        self::getExceptionHandler()->report($exception);
+        Log::info('file ' . $errfile . ' line ' . $errline . ' ' . $errstr, 'error', 'appError');
+        Response::setJsonContent([
+            'code' => -1,
+            'errorMsg' => 'system error',
+            'msg' => 'unknown error in server'
+        ]);
+        Response::send();
+        exit;
     }
-*/
+
+    /**
+     * 异常处理
+     * @access public
+     * @param  $e 异常
+     * @return void
+     */
+    public static function appException($e)
+    {
+        $error = [];
+        $error['message'] = $e->getMessage();
+        $trace = $e->getTrace();
+        if ('E' == $trace[0]['function']) {
+            $error['file'] = $trace[0]['file'];
+            $error['line'] = $trace[0]['line'];
+        } else {
+            $error['file'] = $e->getFile();
+            $error['line'] = $e->getLine();
+        }
+        Log::info('file ' . $error['file'] . ' line ' . $error['line'] . ' ' . $error['message'], 'error', 'appException');
+        Response::setJsonContent([
+            'code' => -1,
+            'errorMsg' => 'system error',
+            'msg' => 'unknown error in server'
+        ]);
+        Response::send();
+        exit;
+    }
+
+    /**
+     * 异常中止处理
+     * @access public
+     * @return void
+     */
+    public static function appShutdown()
+    {
+        if ($e = error_get_last()) {
+            switch ($e['type']) {
+                case E_ERROR:
+                case E_PARSE:
+                case E_CORE_ERROR:
+                case E_COMPILE_ERROR:
+                case E_USER_ERROR:
+                    ob_end_clean();
+                    Log::info('file ' . $e['file'] . ' line ' . $e['line'] . ' ' . $e['message'], 'error', 'appShutdown');
+                    Response::setJsonContent([
+                        'code' => -1,
+                        'errorMsg' => 'system error',
+                        'msg' => 'unknown error in server'
+                    ]);
+                    Response::send();
+                    exit;
+            }
+        }
+    }
+
+
+
+
 
 }
 
