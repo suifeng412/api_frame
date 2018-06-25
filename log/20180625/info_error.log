@@ -12,3 +12,69 @@
 [2018-06-25 02:55:11] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
 [2018-06-25 02:55:16] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
 [2018-06-25 02:55:16] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
+[2018-06-25 03:22:39] file /Users/lijiechao/work/php/api_frame/core/App.php line 13 Cannot access private property core\Request::$controller
+[2018-06-25 03:22:39] file /Users/lijiechao/work/php/api_frame/core/App.php line 13 Cannot access private property core\Request::$controller
+[2018-06-25 03:23:12] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'activity' not found
+[2018-06-25 03:23:12] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'favicon' not found
+[2018-06-25 03:24:33] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 93 Class 'activity' not found
+[2018-06-25 03:24:33] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 93 Class 'favicon' not found
+[2018-06-25 03:25:31] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'activity' not found
+[2018-06-25 03:25:31] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'favicon' not found
+[2018-06-25 03:26:22] file /Users/lijiechao/work/php/api_frame/core/App.php line 14 syntax error, unexpected ''app\controller\'.$requestObj-' (T_ENCAPSED_AND_WHITESPACE)
+[2018-06-25 03:26:22] file /Users/lijiechao/work/php/api_frame/core/App.php line 14 syntax error, unexpected ''app\controller\'.$requestObj-' (T_ENCAPSED_AND_WHITESPACE)
+[2018-06-25 03:26:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:26:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:22] file /Users/lijiechao/work/php/api_frame/core/App.php line 16 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:27:23] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:24] file /Users/lijiechao/work/php/api_frame/core/App.php line 16 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:27:24] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:26] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:26] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:54] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:54] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:55] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:55] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:55] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:55] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:27:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:27:56] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:28:22] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\activity' not found
+[2018-06-25 03:28:22] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:30:23] file /Users/lijiechao/work/php/api_frame/core/App.php line 16 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:30:23] file /Users/lijiechao/work/php/api_frame/core/App.php line 16 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:31:04] file /Users/lijiechao/work/php/api_frame/core/App.php line 17 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:31:04] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:31:43] file /Users/lijiechao/work/php/api_frame/core/App.php line 17 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:31:43] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:31:51] file /Users/lijiechao/work/php/api_frame/core/App.php line 17 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:31:51] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:32:26] file /Users/lijiechao/work/php/api_frame/core/App.php line 17 Call to undefined method app\controller\ActivityController::index()
+[2018-06-25 03:32:26] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:32:28] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:32:30] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:32:31] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:01] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:15] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:38] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:39] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:40] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:40] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:41] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:42] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:33:43] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:36:21] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:36:25] file /Users/lijiechao/work/php/api_frame/app/controller/ActivityController.php line 14 Call to undefined method core\Request::setJsonContent()
+[2018-06-25 03:36:25] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:36:57] file /Users/lijiechao/work/php/api_frame/app/controller/ActivityController.php line 15 Class 'http\Env\Response' not found
+[2018-06-25 03:36:57] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:36:59] file /Users/lijiechao/work/php/api_frame/app/controller/ActivityController.php line 15 Class 'http\Env\Response' not found
+[2018-06-25 03:36:59] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:38:20] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:48:43] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:48:48] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:48:49] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 03:48:51] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 05:35:49] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found
+[2018-06-25 05:35:53] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'app\controller\favicon' not found

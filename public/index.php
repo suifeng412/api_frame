@@ -10,13 +10,24 @@ use core\Log;
 
 require __DIR__ . '/../core/start.php';
 
+$a = new \app\controller\ActivityController();
+
+$b = new \app\controller\ActivityController();
+
+var_dump($a);
+echo "<pre>";
+var_dump($b);
+echo "<pre>";
+var_dump(new \app\controller\ActivityController());
+var_dump(new \app\controller\ActivityController());exit;
+
 //$b = new TestLogic();
 //var_dump($b);
 //$c = new TestLogic();
 //var_dump($c);
 
-//$cc = Loader::getInstance('app\Logic\Test');
-//var_dump($cc);
+//$cc = Loader::getInstance('app\Controller\ActivityController');
+//var_dump($cc);exit;
 //$dd = Loader::getInstance('app\Logic\Test');
 //var_dump($dd);
 

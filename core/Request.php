@@ -5,13 +5,13 @@ namespace core;
 class Request
 {
     // 控制器
-    private $controller = '';
+    public $controller = '';
     // 方法
-    private $action = '';
+    public $action = '';
     // get参数
-    private $getData = null;
+    public $getData = null;
     // post数据
-    private $postData = null;
+    public $postData = null;
 
     public function getRequestData()
     {
@@ -23,10 +23,9 @@ class Request
             $this->controller = $uriArr[0]??'index';
             $this->action = $uriArr[1]??'index';
         }
-
         $this->getData = $_GET;
-
     }
+
 
     public function getData()
     {
