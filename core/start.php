@@ -12,7 +12,8 @@ require CORE_PATH . 'Loader.php';
 
 Loader::register();
 
+Error::register();
 
-//Error::register();
+App::run();
 
 

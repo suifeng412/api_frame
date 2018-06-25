@@ -1,0 +1,14 @@
+[2018-06-25 02:02:49] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:02:49] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:05:06] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:05:06] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:05:26] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:05:26] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'Request' not found
+[2018-06-25 02:05:34] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'request' not found
+[2018-06-25 02:05:34] file /Users/lijiechao/work/php/api_frame/core/Loader.php line 90 Class 'request' not found
+[2018-06-25 02:10:22] file /Users/lijiechao/work/php/api_frame/core/Request.php line 18 syntax error, unexpected ')'
+[2018-06-25 02:10:22] file /Users/lijiechao/work/php/api_frame/core/Request.php line 18 syntax error, unexpected ')'
+[2018-06-25 02:55:11] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
+[2018-06-25 02:55:11] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
+[2018-06-25 02:55:16] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)
+[2018-06-25 02:55:16] file /Users/lijiechao/work/php/api_frame/core/Request.php line 20 syntax error, unexpected '$a' (T_VARIABLE)

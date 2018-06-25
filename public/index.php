@@ -15,20 +15,17 @@ require __DIR__ . '/../core/start.php';
 //$c = new TestLogic();
 //var_dump($c);
 
-$cc = Loader::getInstance('app\Logic\Test');
-var_dump($cc);
-$dd = Loader::getInstance('app\Logic\Test');
-var_dump($dd);
+//$cc = Loader::getInstance('app\Logic\Test');
+//var_dump($cc);
+//$dd = Loader::getInstance('app\Logic\Test');
+//var_dump($dd);
 
-Log::info('6666666','eee');
-
-
+//Log::info('6666666','eee');
 
 
-exit;
-echo "<pre>";
-print_r(CORE_PATH);
-echo "<pre>";
+
+
+
 
 echo 'this is api_frame';
 
